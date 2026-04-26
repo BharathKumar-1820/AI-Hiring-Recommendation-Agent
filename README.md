@@ -121,15 +121,35 @@ ai_hiring_agent/
 
 ---
 
-## 🚀 Setup & Installation
+## 🚀 Deployment & Local Setup
 
-### 1 — Clone / enter the project
+### ☁️ Cloud Deployment (Free Tier)
+
+This project is architected to run perfectly on free cloud tiers by splitting the workload:
+
+1. **Backend on Hugging Face Spaces (16GB RAM Free)**
+   - Create a new **Docker** Space on [Hugging Face](https://huggingface.co/spaces).
+   - Link your GitHub repository.
+   - Hugging Face will automatically read the `Dockerfile` and spin up the FastAPI backend.
+   - *Note: `all-MiniLM-L6-v2` and PyTorch require >1GB RAM, which is why Render's free tier (512MB) will crash.*
+
+2. **Frontend on Vercel**
+   - Import your GitHub repository into [Vercel](https://vercel.com).
+   - Set the Root Directory to `frontend`.
+   - Add an Environment Variable named `VITE_API_URL` and set it to your Hugging Face space URL (e.g., `https://username-ai-talent-backend.hf.space`).
+   - Deploy.
+
+---
+
+### 💻 Local Setup
+
+#### 1 — Clone / enter the project
 
 ```bash
 cd ai_hiring_agent
 ```
 
-### 2 — Backend setup
+#### 2 — Backend setup
 
 ```bash
 # Create & activate virtual environment
@@ -146,7 +166,7 @@ pip install -r requirements.txt
 
 > **Note:** First install downloads PyTorch (~750 MB) and the sentence-transformer model (~90 MB).
 
-### 3 — Start the backend
+#### 3 — Start the backend
 
 ```bash
 uvicorn app.main:app --reload
@@ -154,7 +174,7 @@ uvicorn app.main:app --reload
 
 Backend runs on **http://127.0.0.1:8000** — Swagger docs at `/docs`.
 
-### 4 — Frontend setup
+#### 4 — Frontend setup
 
 ```bash
 cd frontend
