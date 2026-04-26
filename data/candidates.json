@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Patel",
+    "skills": ["Python", "PyTorch", "NLP", "Transformers", "HuggingFace", "Docker", "Kubernetes", "FastAPI", "SQL", "Git"],
+    "experience": 6,
+    "role": "Senior ML Engineer",
+    "description": "Experienced ML engineer specialising in NLP and large language models. Built production RAG pipelines and fine-tuned transformer models on distributed GPU clusters. Led a team of 4 engineers delivering real-time inference services on Kubernetes. Deep expertise in model evaluation, prompt engineering, and deploying LLM-powered products."
+  },
+  {
+    "id": 2,
+    "name": "Marcus Chen",
+    "skills": ["Python", "TensorFlow", "Scikit-learn", "AWS", "SageMaker", "MLflow", "SQL", "Pandas", "NumPy", "Airflow"],
+    "experience": 8,
+    "role": "Lead Data Scientist",
+    "description": "Veteran data scientist with 8 years building end-to-end ML systems in e-commerce and fintech. Expert in feature engineering, model interpretability (SHAP/LIME), and managing ML lifecycle with MLflow on AWS SageMaker. Mentors junior scientists and collaborates closely with product and engineering teams."
+  },
+  {
+    "id": 3,
+    "name": "Sofia Andersen",
+    "skills": ["React", "TypeScript", "Next.js", "Node.js", "GraphQL", "CSS", "Tailwind", "Git", "Jest", "Webpack"],
+    "experience": 5,
+    "role": "Senior Frontend Engineer",
+    "description": "Frontend specialist with a product-driven mindset and strong design sensibility. Built performant React/Next.js applications serving millions of users. Advocates for accessibility, component-driven design, and test coverage. Experienced in design-system creation and cross-functional collaboration with UX teams."
+  },
+  {
+    "id": 4,
+    "name": "James Okafor",
+    "skills": ["Python", "FastAPI", "Django", "PostgreSQL", "Redis", "Docker", "Kubernetes", "AWS", "RabbitMQ", "Git"],
+    "experience": 7,
+    "role": "Senior Backend Engineer",
+    "description": "Backend engineer with deep expertise in Python web frameworks and distributed systems. Designed high-throughput microservices handling 50k+ requests/second. Strong background in database optimisation, caching strategies, and cloud infrastructure on AWS. Passionate about clean APIs, observability, and on-call reliability."
+  },
+  {
+    "id": 5,
+    "name": "Priya Subramaniam",
+    "skills": ["Python", "Spark", "Kafka", "Airflow", "dbt", "Snowflake", "SQL", "Scala", "GCP", "Docker"],
+    "experience": 6,
+    "role": "Data Engineer",
+    "description": "Data engineer who specialises in large-scale streaming and batch pipelines. Built petabyte-scale data warehouses on Snowflake/BigQuery and real-time event systems with Kafka. Experienced with dbt for transformation, Airflow for orchestration, and Infrastructure as Code on GCP."
+  },
+  {
+    "id": 6,
+    "name": "Luca Ferretti",
+    "skills": ["Python", "PyTorch", "Computer Vision", "OpenCV", "CUDA", "C++", "Docker", "AWS", "NumPy", "TensorRT"],
+    "experience": 5,
+    "role": "Computer Vision Engineer",
+    "description": "Computer vision specialist with a track record of deploying real-time inference models on edge devices and cloud GPUs. Strong in object detection (YOLO, DETR), segmentation, and optimising models with TensorRT and ONNX for production latency targets. Background in robotics and autonomous systems."
+  },
+  {
+    "id": 7,
+    "name": "Yuki Tanaka",
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB", "GraphQL", "AWS", "Docker", "TypeScript", "Redis", "Git"],
+    "experience": 4,
+    "role": "Full-Stack Engineer",
+    "description": "Full-stack developer comfortable across the entire web stack from React UIs to Node.js APIs and MongoDB. Shipped multiple SaaS products from zero to production. Values developer experience, fast feedback loops, and pragmatic architecture choices. Experienced with AWS infrastructure and CI/CD pipelines."
+  },
+  {
+    "id": 8,
+    "name": "Elena Vasquez",
+    "skills": ["Python", "Machine Learning", "Scikit-learn", "SQL", "Pandas", "Tableau", "Statistics", "R", "A/B Testing", "Git"],
+    "experience": 3,
+    "role": "Data Analyst",
+    "description": "Analytically minded data professional with a statistics background. Skilled at translating business questions into SQL queries and ML experiments. Built dashboards and self-serve reporting tools used by 200+ stakeholders. Comfortable running A/B tests, cohort analysis, and predictive modelling in Python and R."
+  },
+  {
+    "id": 9,
+    "name": "Ravi Menon",
+    "skills": ["Terraform", "Kubernetes", "Docker", "AWS", "GCP", "Python", "Bash", "Ansible", "Prometheus", "CI/CD"],
+    "experience": 9,
+    "role": "DevOps / Platform Engineer",
+    "description": "Platform engineer with nearly a decade of building developer platforms and cloud infrastructure. Expert in Terraform, Kubernetes operators, and observability stacks (Prometheus, Grafana, ELK). Reduced deployment lead times by 70% at previous role. Passionate about SRE principles, chaos engineering, and GitOps."
+  },
+  {
+    "id": 10,
+    "name": "Natalie Brooks",
+    "skills": ["Python", "LLM", "LangChain", "RAG", "FAISS", "FastAPI", "OpenAI API", "Docker", "NLP", "Vector Database"],
+    "experience": 4,
+    "role": "AI/LLM Engineer",
+    "description": "Specialist in building applications on top of large language models. Has shipped production RAG systems, conversational agents, and tool-use pipelines using LangChain, FAISS, and various LLM providers. Strong understanding of prompt engineering, context management, and evaluation frameworks for LLM outputs."
+  },
+  {
+    "id": 11,
+    "name": "David Kim",
+    "skills": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Kubernetes", "AWS", "gRPC", "Redis", "Microservices", "Git"],
+    "experience": 10,
+    "role": "Principal Backend Engineer",
+    "description": "Principal engineer with 10 years of Java ecosystem expertise. Architected event-driven microservices powering a fintech platform with 5M daily active users. Deep knowledge of JVM tuning, distributed transactions, and designing for resilience. Regular speaker at internal architecture forums."
+  },
+  {
+    "id": 12,
+    "name": "Amara Diallo",
+    "skills": ["Python", "Deep Learning", "PyTorch", "NLP", "Transformers", "AWS", "Docker", "SQL", "Hugging Face", "Evaluation"],
+    "experience": 5,
+    "role": "NLP Research Engineer",
+    "description": "Research engineer bridging academia and production NLP. Expertise in fine-tuning BERT/RoBERTa/LLaMA, RLHF, and building evaluation benchmarks for language models. Published in ACL and EMNLP. Comfortable taking research prototypes to reliable, scalable production services."
+  },
+  {
+    "id": 13,
+    "name": "Carlos Rivera",
+    "skills": ["React", "Vue", "TypeScript", "HTML/CSS", "Webpack", "Jest", "Storybook", "Figma", "Accessibility", "Git"],
+    "experience": 6,
+    "role": "Frontend Architect",
+    "description": "Frontend architect with deep experience in design systems and component libraries used across multiple product teams. Led migration from legacy jQuery monolith to React micro-frontends. Champion of web accessibility (WCAG 2.1 AA) and performance budgets. Works closely with design to maintain pixel-perfect parity."
+  },
+  {
+    "id": 14,
+    "name": "Hannah Schmidt",
+    "skills": ["Cybersecurity", "Penetration Testing", "Python", "Bash", "OAuth", "AWS", "Docker", "Networking", "SIEM", "Forensics"],
+    "experience": 7,
+    "role": "Security Engineer",
+    "description": "Offensive-minded security engineer with certifications in OSCP and CEH. Runs internal red-team exercises, threat models for new product features, and manages the organisation's SIEM stack. Developed automated vulnerability scanning pipelines and works with dev teams to embed security into the SDLC."
+  },
+  {
+    "id": 15,
+    "name": "Oliver Nguyen",
+    "skills": ["Go", "Rust", "Kubernetes", "gRPC", "Docker", "PostgreSQL", "AWS", "Prometheus", "Kafka", "Linux"],
+    "experience": 8,
+    "role": "Senior Systems Engineer",
+    "description": "Systems-level engineer who loves low-latency, high-throughput services. Built a distributed key-value store in Rust and a service mesh control plane in Go. Deep Linux internals knowledge; expert in profiling, tracing (eBPF), and squeezing every microsecond out of critical hot paths."
+  },
+  {
+    "id": 16,
+    "name": "Isabella Rossi",
+    "skills": ["Python", "Spark", "Machine Learning", "Feature Engineering", "Scikit-learn", "SQL", "Databricks", "Kafka", "MLflow", "Pandas"],
+    "experience": 5,
+    "role": "ML Platform Engineer",
+    "description": "Bridges the gap between data engineering and ML. Built feature stores, model registries, and online/offline serving infrastructure on Databricks and AWS. Ensures ML teams can train, evaluate, and deploy models reliably. Strong background in ETL pipelines and data quality monitoring."
+  },
+  {
+    "id": 17,
+    "name": "Ben Osei",
+    "skills": ["Android", "Kotlin", "Java", "REST API", "Firebase", "CI/CD", "Git", "Room DB", "Jetpack Compose", "Testing"],
+    "experience": 4,
+    "role": "Android Engineer",
+    "description": "Mobile engineer specialising in native Android development with Kotlin and Jetpack Compose. Shipped consumer apps to millions of users on the Play Store. Strong advocate for clean architecture (MVVM, clean arch), automated testing, and performance profiling on low-end devices."
+  },
+  {
+    "id": 18,
+    "name": "Fatima Al-Rashid",
+    "skills": ["Python", "TensorFlow", "Reinforcement Learning", "Deep Learning", "C++", "CUDA", "NumPy", "Algorithms", "Docker", "Research"],
+    "experience": 3,
+    "role": "Research Scientist — RL",
+    "description": "Recent PhD graduate in reinforcement learning with publications in NeurIPS and ICLR. Expert in policy gradient algorithms, multi-agent RL, and sim-to-real transfer for robotics. Transitioning from academic research to applied industry research; eager to tackle real-world sequential decision-making problems."
+  },
+  {
+    "id": 19,
+    "name": "Tom Blackwood",
+    "skills": ["Python", "SQL", "Data Warehousing", "dbt", "Snowflake", "Looker", "Airflow", "Pandas", "Git", "Agile"],
+    "experience": 6,
+    "role": "Analytics Engineer",
+    "description": "Analytics engineer who owns the semantic layer between raw warehouse data and business intelligence tooling. Expert in dbt, Snowflake, and Looker. Collaborated with 10+ business teams to define KPIs, build reliable data models, and reduce time-to-insight from weeks to minutes."
+  },
+  {
+    "id": 20,
+    "name": "Mei Lin",
+    "skills": ["Swift", "Objective-C", "Xcode", "Core Data", "REST API", "Firebase", "CI/CD", "SwiftUI", "Testing", "Git"],
+    "experience": 5,
+    "role": "iOS Engineer",
+    "description": "iOS engineer with a portfolio of apps across health, fintech, and lifestyle verticals. Advocates for SwiftUI, TDD, and seamless UX. Experience integrating ML features on-device using Core ML. Works closely with design and backend teams to ship polished, accessible iOS experiences."
+  }
+]

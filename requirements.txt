@@ -1,0 +1,17 @@
+# ── Web framework ──────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9          # needed for FastAPI form parsing
+
+# ── ML / Embeddings ────────────────────────────────────────────────────────
+sentence-transformers>=3.0.0
+torch>=2.6.0                     # CPU-only; swap for CUDA build if GPU available
+transformers>=4.41.0
+huggingface-hub>=0.23.0
+
+# ── Vector search ──────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0                 # use faiss-gpu for CUDA environments
+
+# ── Data / Utilities ───────────────────────────────────────────────────────
+numpy>=1.26.0
+pydantic>=2.7.0
