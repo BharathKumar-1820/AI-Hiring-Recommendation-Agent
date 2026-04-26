@@ -97,6 +97,9 @@ export default function App() {
             scored on <span className="text-text-secondary font-medium">Match</span> and{" "}
             <span className="text-text-secondary font-medium">Interest</span>.
           </p>
+          <div className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-brand-500/20 bg-brand-500/10 px-3 py-1 text-xs font-medium text-brand-400">
+            <span>Built by BharathKumar-1820</span>
+          </div>
         </section>
 
         {/* Job input */}
