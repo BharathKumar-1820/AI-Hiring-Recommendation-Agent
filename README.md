@@ -1,11 +1,4 @@
----
-title: AI Talent Backend
-emoji: 🚀
-colorFrom: blue
-colorTo: purple
-sdk: docker
-pinned: false
----
+
 
 # 🤖 AI-Powered Talent Scouting & Engagement Agent
 
